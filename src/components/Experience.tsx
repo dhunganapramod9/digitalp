@@ -17,38 +17,38 @@ const experiences: ExperienceItem[] = [
     title: "Software Engineer Fellowship",
     company: "Headstarter AI",
     location: "Manhattan, NY",
-    date: "June 2024 - Sep 2024",
+    date: "June 2024 - Sep. 2024",
     description: [
-      "Developed resume scanner app, cutting HR workload by using keyword matching and Firebase functionalities.",
-      "Built and deployed a real-time group messaging app, optimizing AI integration to achieve <500ms latency",
-      "Created interactive dashboard news, enhancing user engagement with API integration and AI-generated summaries.",
-      "Developed an ML and RAG pipeline for a chatbot, boosting response relevance by 25% with Pinecone-based storage."
+      "Developed a multi-turn chatbot using LlamaIndex and Pinecone, improving response relevance by 40% based on user feedback.",
+      "Implemented Retrieval-Augmented Generation (RAG) with vector embeddings, reducing hallucination rates by 35%.",
+      "Designed a fine-tuned NLP model for personalized career coaching, achieving 92% accuracy in user intent recognition.",
+      "Built a pipeline integrating GPT-4o and Whisper for real-time speech-to-text summarization, reducing manual transcription time by 57%."
     ],
     icon: <Code className="w-8 h-8 text-accent" />
   },
   {
     title: "Undergraduate Research Assistant I",
     company: "CUNY LaGuardia Community College",
-    location: "Long Island, NY",
-    date: "Jan 2024 - Mar 2024",
+    location: "Long Island City, NY",
+    date: "Jan. 2024 - Mar. 2024",
     description: [
-      "Conducted Q-stem research under the mentorship of Professor Lucie Mingla, Meta AI Assistant researcher",
+      "Conducted Q-stem research under the mentorship of Professor Lucie Mingla, Meta AI Assistant researcher.",
       "Analyzed the capabilities of Meta Smart Glass AI, focusing on feature-based recognition.",
       "Utilized advanced MSA and PCA algorithms to achieve real-world accuracy rates exceeding 93%.",
-      "Presented weekly research reports showcasing continuous geometric solutions with an impressive error rate consistently below 6.3%."
+      "Presented weekly research reports showcasing geometric solutions with an error rate consistently below 6.3%."
     ],
     icon: <Brain className="w-8 h-8 text-accent" />
   },
   {
     title: "Software Engineer Intern",
-    company: "V-ELMS co",
+    company: "V-ELMS Co",
     location: "Brooklyn, NY",
-    date: "Sep 2023 - Dec 2023",
+    date: "Sep. 2023 - Dec. 2023",
     description: [
-      "Utilized Git for version control, managing branching, pull requests, and seamless feature integration in the codebase.",
-      "Developed and optimized full-stack web applications using the MERN stack, improving application performance by 20% and enhancing UI responsiveness.",
-      "Integrated Firebase for real-time database management and user authentication, streamlining backend processes and reducing server-side load.",
-      "Leveraged generative AI models to automate content generation, increasing development efficiency by 30%, while ensuring a user-friendly interface and consistent UI/UX design."
+      "Utilized Git for version control, managing branching, pull requests, and seamless feature integration.",
+      "Developed and optimized full-stack web applications using the MERN stack, improving performance by 20%.",
+      "Integrated Firebase for real-time database management and user authentication.",
+      "Leveraged generative AI models to automate content generation, increasing development efficiency by 30%."
     ],
     icon: <Briefcase className="w-8 h-8 text-accent" />
   }
