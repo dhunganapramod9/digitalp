@@ -14,6 +14,28 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "Software Engineering Intern",
+    company: "Unadat",
+    location: "Brooklyn, NY",
+    date: "May 2025 – Present",
+    description: [
+      "Built and optimized financial goal-tracking features (milestones, routines, fundraisers) using Next.js, Firebase, and TypeScript, enabling anonymous progress management.",
+      "Enhanced the Lifeline feed with Edge Functions, Firestore, and AI-driven personalization, boosting user engagement and community interaction."
+    ],
+    icon: <Code className="w-8 h-8 text-accent" />
+  },
+  {
+    title: "Software Engineering Program (Apprenticeship)",
+    company: "Google × BASTA",
+    location: "Google Campus Manhattan, NY",
+    date: "Feb. 2025 – May 2025",
+    description: [
+      "Selected as 1 of 80 fellows from over 600+ applicants for a 10-week program hosted by Google and BASTA.",
+      "Collaborated with a Google SWE mentor, tackled technical challenges, and joined workshops on coding, systems, and interview prep."
+    ],
+    icon: <Brain className="w-8 h-8 text-accent" />
+  },
+  {
     title: "Software Engineer Fellowship",
     company: "Headstarter AI",
     location: "Manhattan, NY",
