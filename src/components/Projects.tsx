@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Brain, Leaf, Users, LineChart, Cloud, ExternalLink } from 'lucide-react';
+import { Brain, Leaf, Users, LineChart, Cloud, Search, ExternalLink } from 'lucide-react';
 
 interface Project {
   title: string;
@@ -39,6 +39,13 @@ const projects: Project[] = [
     icon: <LineChart className="w-12 h-12" />,
     link: "https://github.com/dhunganapramod9/Sorting",
     color: "from-orange-500 to-red-500"
+  },
+  {
+    title: "Search Engine",
+    description: "A document search application I built for my machine learning class project. Instead of just matching keywords, it understands the meaning of your search using AI embeddings. You can upload different types of documents and search through them semantically.",
+    icon: <Search className="w-12 h-12" />,
+    link: "https://github.com/dhunganapramod9/search-engine",
+    color: "from-pink-500 to-violet-500"
   },
   {
     title: "WeatherNow",
